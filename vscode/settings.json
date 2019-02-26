@@ -1,0 +1,147 @@
+{
+    "telemetry.enableTelemetry": false,
+    "editor.fontFamily": "Consolas, monospace",
+    "editor.fontSize": 14,
+    "editor.fontWeight": "bold",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.lineHeight": 19,
+    "workbench.iconTheme": "webstorm-icons",
+    "files.autoSaveDelay": 1,
+    "explorer.openEditors.visible": 0,
+    "eslint.alwaysShowStatus": true,
+    "jetbrainsKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "path-intellisense.extensionOnImport": true,
+    "workbench.list.openMode": "doubleClick",
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "vue",
+            "autoFix": true
+        }
+    ],
+    "workbench.colorCustomizations": {
+        "editorWarning.foreground": "#ff0000"
+    },
+    "editor.tokenColorCustomizations": {
+        "[Default Dark+]": {
+            "variables": "#CBCBCB",
+            "functions": "#9CDCFE",
+            "keywords": "#569CD6",
+            "types": "#4EC9B0",
+            "strings": "#D69D85",
+            "textMateRules": [
+                {
+                    "scope": "meta.object-literal.key",
+                    "settings": {
+                        "foreground": "#D7BA7D",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "variable.parameter.js",
+                    "settings": {
+                        "foreground": "#7E7E7E",
+                        "fontStyle": "bold"
+                    },
+                },
+                {
+                    "scope": [
+                        "variable.other.property",
+                        "variable.other.object.property.js",
+                        "support.variable.property.js"
+                    ],
+                    "settings": {
+                        "foreground": "#D7BA7D",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "constant.language.import-export-all.js",
+                    "settings": {
+                        "foreground": "#CBCBCB",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": [
+                        "punctuation.definition.template-expression.begin",
+                        "punctuation.definition.template-expression.end",
+                        "storage.type.function.arrow.js"
+                    ],
+                    "settings": {
+                        "foreground": "#CBCBCB"
+                    }
+                }
+            ]
+        },
+    },
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "Consolas, monospace",
+    "terminal.integrated.fontWeight": "bold",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.copyOnSelection": true,
+    "cSpell.userWords": [
+        "babel",
+        "bounding",
+        "client",
+        "comments",
+        "cookies",
+        "enabled",
+        "focusable",
+        "karma",
+        "loader",
+        "polyfill",
+        "preterite",
+        "realtime",
+        "rect",
+        "sourcemap",
+        "thirdparty",
+        "unobserve",
+        "viafoura",
+        "vuex"
+    ],
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "editor.wordBasedSuggestions": false,
+    "editor.snippetSuggestions": "bottom",
+    //"editor.suggestSelection": "recentlyUsedByPrefix",
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "window.title": "${activeEditorLong}${separator}${rootName}",
+    "files.autoSave": "onFocusChange",
+    "git.autofetch": true,
+    "cSpell.enabledLanguageIds": [
+        "asciidoc",
+        "c",
+        "cpp",
+        "csharp",
+        "css",
+        "go",
+        "handlebars",
+        "html",
+        "jade",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "latex",
+        "less",
+        "markdown",
+        "php",
+        "plaintext",
+        "pub",
+        "python",
+        "restructuredtext",
+        "rust",
+        "scss",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "vue",
+        "yml"
+    ]
+}
