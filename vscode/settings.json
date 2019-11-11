@@ -1,120 +1,8 @@
 {
-    "telemetry.enableTelemetry": false,
-    "editor.fontFamily": "Consolas, monospace",
-    "editor.fontSize": 14,
-    "editor.fontWeight": "bold",
-    "editor.minimap.enabled": false,
-    "editor.renderWhitespace": "all",
-    "editor.lineHeight": 19,
-    "workbench.iconTheme": "webstorm-icons",
-    "files.autoSaveDelay": 1,
-    "explorer.openEditors.visible": 0,
-    "eslint.alwaysShowStatus": true,
-    "jetbrainsKeymap.promptV3Features": true,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.formatOnPaste": true,
-    "path-intellisense.extensionOnImport": true,
-    "workbench.list.openMode": "doubleClick",
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        {
-            "language": "vue",
-            "autoFix": true
-        }
-    ],
-    "workbench.colorCustomizations": {
-        "editorWarning.foreground": "#ff0000"
+    "[java]": {
+        "editor.detectIndentation": false
     },
-    "editor.tokenColorCustomizations": {
-        "[Default Dark+]": {
-            "variables": "#CBCBCB",
-            "functions": "#9CDCFE",
-            "keywords": "#569CD6",
-            "types": "#4EC9B0",
-            "strings": "#D69D85",
-            "textMateRules": [
-                {
-                    "scope": "meta.object-literal.key",
-                    "settings": {
-                        "foreground": "#D7BA7D",
-                        "fontStyle": "bold"
-                    }
-                },
-                {
-                    "scope": "variable.parameter.js",
-                    "settings": {
-                        "foreground": "#7E7E7E",
-                        "fontStyle": "bold"
-                    },
-                },
-                {
-                    "scope": [
-                        "variable.other.property",
-                        "variable.other.object.property.js",
-                        "support.variable.property.js"
-                    ],
-                    "settings": {
-                        "foreground": "#D7BA7D",
-                        "fontStyle": "bold"
-                    }
-                },
-                {
-                    "scope": "constant.language.import-export-all.js",
-                    "settings": {
-                        "foreground": "#CBCBCB",
-                        "fontStyle": "bold"
-                    }
-                },
-                {
-                    "scope": [
-                        "punctuation.definition.template-expression.begin",
-                        "punctuation.definition.template-expression.end",
-                        "storage.type.function.arrow.js"
-                    ],
-                    "settings": {
-                        "foreground": "#CBCBCB"
-                    }
-                }
-            ]
-        },
-    },
-    "terminal.integrated.fontSize": 14,
-    "terminal.integrated.fontFamily": "Consolas, monospace",
-    "terminal.integrated.fontWeight": "bold",
-    "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.copyOnSelection": true,
-    "cSpell.userWords": [
-        "babel",
-        "bounding",
-        "client",
-        "comments",
-        "cookies",
-        "enabled",
-        "focusable",
-        "karma",
-        "loader",
-        "polyfill",
-        "preterite",
-        "realtime",
-        "rect",
-        "sourcemap",
-        "thirdparty",
-        "unobserve",
-        "viafoura",
-        "vuex"
-    ],
-    "files.trimTrailingWhitespace": true,
-    "files.trimFinalNewlines": true,
-    "editor.wordBasedSuggestions": false,
-    "editor.snippetSuggestions": "bottom",
-    //"editor.suggestSelection": "recentlyUsedByPrefix",
-    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
-    "editor.acceptSuggestionOnCommitCharacter": false,
-    "window.title": "${activeEditorLong}${separator}${rootName}",
-    "files.autoSave": "onFocusChange",
-    "git.autofetch": true,
+    "breadcrumbs.enabled": false,
     "cSpell.enabledLanguageIds": [
         "asciidoc",
         "c",
@@ -142,6 +30,194 @@
         "typescript",
         "typescriptreact",
         "vue",
-        "yml"
-    ]
+        "yml",
+        "yaml"
+    ],
+    "cSpell.userWords": [
+        "api",
+        "automod",
+        "babel",
+        "booter",
+        "bounding",
+        "checkmark",
+        "client",
+        "comments",
+        "content",
+        "cookies",
+        "dataset",
+        "dislikable",
+        "dropdown",
+        "enabled",
+        "fieldset",
+        "flaggable",
+        "focusable",
+        "hardcoded",
+        "icon",
+        "is",
+        "karma",
+        "livestories",
+        "loader",
+        "mixins",
+        "multiline",
+        "polyfill",
+        "post",
+        "premoderation",
+        "preterite",
+        "realtime",
+        "rect",
+        "rejected",
+        "roboto",
+        "sourcemap",
+        "subthreads",
+        "thirdparty",
+        "toggled",
+        "typeof",
+        "unflag",
+        "unfollow",
+        "unobserve",
+        "unspam",
+        "uuid",
+        "vf",
+        "viafoura",
+        "vuex"
+    ],
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.fontFamily": "Consolas, monospace",
+    "editor.fontSize": 14,
+    "editor.fontWeight": "bold",
+    "editor.formatOnPaste": true,
+    "editor.lineHeight": 19,
+    "editor.minimap.enabled": true,
+    "editor.minimap.maxColumn": 100,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.showSlider": "always",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    "editor.smoothScrolling": true,
+    "editor.snippetSuggestions": "bottom",
+    "editor.suggestSelection": "first",
+    "editor.tokenColorCustomizations": {
+        "[Default Dark+]": {
+            "functions": "#9CDCFE",
+            "keywords": "#569CD6",
+            "strings": "#D69D85",
+            "textMateRules": [
+                {
+                    "scope": "meta.object-literal.key",
+                    "settings": {
+                        "foreground": "#D7BA7D"
+                    }
+                },
+                {
+                    "scope": "variable.parameter.js",
+                    "settings": {
+                        "foreground": "#7E7E7E"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.other.property",
+                        "variable.other.object.property.js",
+                        "support.variable.property.js"
+                    ],
+                    "settings": {
+                        "foreground": "#D7BA7D"
+                    }
+                },
+                {
+                    "scope": "constant.language.import-export-all.js",
+                    "settings": {
+                        "foreground": "#CBCBCB"
+                    }
+                },
+                {
+                    "scope": [
+                        "punctuation.definition.template-expression.begin",
+                        "punctuation.definition.template-expression.end",
+                        "storage.type.function.arrow.js",
+                        "variable.scss",
+                        "keyword.control.ternary.java",
+                        "storage.type.function.arrow.java"
+                    ],
+                    "settings": {
+                        "foreground": "#CBCBCB"
+                    }
+                },
+                {
+                    "scope": "entity.name.tag.css",
+                    "settings": {
+                        "foreground": "#9CDCFE"
+                    }
+                },
+                {
+                    "scope": [
+                        "support.constant.property-value.css",
+                        "support.constant.media.css",
+                        "storage.modifier.import.java"
+                    ],
+                    "settings": {
+                        "foreground": "#4EC9B0"
+                    }
+                },
+                {
+                    "scope": "keyword.operator.logical.scss",
+                    "settings": {
+                        "foreground": "#569CD6"
+                    }
+                },
+                {
+                    "scope": "storage.type.annotation.java",
+                    "settings": {
+                        "fontStyle": "italic",
+                        "foreground": "#CBCBCB"
+                    }
+                }
+            ],
+            "types": "#4EC9B0",
+            "variables": "#CBCBCB"
+        }
+    },
+    "editor.wordBasedSuggestions": false,
+    "eslint.alwaysShowStatus": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "autoFix": true,
+            "language": "vue"
+        }
+    ],
+    "explorer.openEditors.visible": 0,
+    "extensions.autoUpdate": true,
+    "files.autoSave": "onFocusChange",
+    "files.autoSaveDelay": 1,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.factorypath": true,
+        "**/.project": true,
+        "**/.settings": true
+    },
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "git.autofetch": true,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "jetbrainsKeymap.promptV3Features": true,
+    "path-intellisense.extensionOnImport": true,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontFamily": "Consolas, monospace",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontWeight": "bold",
+    "window.title": "${activeEditorLong}${separator}${rootName}",
+    "workbench.colorCustomizations": {
+        "editorWarning.foreground": "#ff0000"
+    },
+    "workbench.fontAliasing": "antialiased",
+    "workbench.iconTheme": "webstorm-icons",
+    "workbench.list.openMode": "doubleClick",
+    "workbench.settings.enableNaturalLanguageSearch": false
 }
