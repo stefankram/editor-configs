@@ -1,3 +1,5 @@
+#!/bin/sh
+
 code --install-extension bajdzis.vscode-database
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
@@ -19,14 +21,16 @@ code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension octref.vetur
 code --install-extension oderwat.indent-rainbow
 code --install-extension peakchen90.open-html-in-browser
+code --install-extension Perkovec.emoji
 code --install-extension pflannery.vscode-versionlens
 code --install-extension PKief.material-icon-theme
 code --install-extension pmsandhu.webstorm-icons
 code --install-extension redhat.vscode-yaml
 code --install-extension richie5um2.vscode-sort-json
 code --install-extension salman-hasrat.jumptocolumn
-code --install-extension shinnn.stylelint
+code --install-extension stylelint.vscode-stylelint
 code --install-extension shyykoserhiy.vscode-spotify
 code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension stylelint.vscode-stylelint
 code --install-extension wayou.vscode-todo-highlight
 code --install-extension wix.vscode-import-cost

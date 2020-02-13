@@ -45,6 +45,7 @@
         "content",
         "cookies",
         "dataset",
+        "debounced",
         "dislikable",
         "dropdown",
         "enabled",
@@ -67,6 +68,7 @@
         "rect",
         "rejected",
         "roboto",
+        "scrollable",
         "sourcemap",
         "subthreads",
         "thirdparty",
@@ -79,6 +81,7 @@
         "uuid",
         "vf",
         "viafoura",
+        "vnode",
         "vuex"
     ],
     "editor.acceptSuggestionOnCommitCharacter": false,
@@ -110,7 +113,9 @@
                     }
                 },
                 {
-                    "scope": "variable.parameter.js",
+                    "scope": [
+                        "variable.parameter.js"
+                    ],
                     "settings": {
                         "foreground": "#7E7E7E"
                     }
@@ -219,5 +224,9 @@
     "workbench.fontAliasing": "antialiased",
     "workbench.iconTheme": "webstorm-icons",
     "workbench.list.openMode": "doubleClick",
-    "workbench.settings.enableNaturalLanguageSearch": false
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "editor.rulers": [
+        80,
+        100
+    ],
 }

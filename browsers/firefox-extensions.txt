@@ -1,0 +1,11 @@
+Dark Reader
+Facebook Container
+Firefox DevTools ADB Extension
+Imagus
+Refined GitHub
+Stylus
+- https://github.com/StylishThemes/GitHub-Dark
+- https://userstyles.org/styles/129171/reddit-minimal-dark
+- https://userstyles.org/styles/122072/wikipedia-dark-material-design
+uBlock Origin
+View Image

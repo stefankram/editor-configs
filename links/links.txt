@@ -1,0 +1,14 @@
+https://dequeuniversity.com/screenreaders/voiceover-keyboard-shortcuts
+https://styleguide.viafoura.xyz/
+https://polaris.shopify.com/
+https://quasar.dev/
+https://make.xwp.co/2016/10/06/reviewing-a-subset-of-commits-in-a-github-pull-request/
+https://guides.github.com/features/mastering-markdown/
+https://css-tricks.com/lobotomized-owls/
+https://github.com/rlidwka/sinopia
+https://jakearchibald.github.io/svgomg/
+https://cubic-bezier.com/#.17,.67,.83,.67
+https://www.smashingmagazine.com/taking-pattern-libraries-next-level/
+https://bradfrost.com/blog/post/the-technical-side-of-design-systems-at-css-day-in-amsterdam/
+
+is:pr is:open archived:false sort:updated-desc repo:viafoura/Viafoura-Front repo:viafoura/design-assets repo:viafoura/commons-js -author:stefankram 
